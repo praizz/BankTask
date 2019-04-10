@@ -1,0 +1,21 @@
+{
+  "name": "banktask",
+  "version": "1.0.0",
+  "description": "Bank application that takes in bank transaction details and responds with credit rating to the users email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praiz_",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^15.4.1",
+    "fs": "0.0.1-security",
+    "mongoosastic": "^4.4.1",
+    "mongoose": "^5.4.22",
+    "nodemon": "^1.18.10",
+    "restify": "^8.2.0",
+    "restify-plugins": "^1.6.0",
+    "xlsx": "^0.14.2"
+  }
+}
